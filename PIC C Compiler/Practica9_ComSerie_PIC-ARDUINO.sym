@@ -1,0 +1,63 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     contador
+021     btnActivado
+022     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @delay_ms1
+00001A  @cinit1
+00001A  main
+00002D  @cinit2
+
+Project Directory:
+    C:\Users\jonas\Documents\CCS C Projects\Practica 9\
+
+Project Files:
+    Practica9_ComSerie_PIC-ARDUINO.c                        [15-may.-23 17:03  CRC=9E942A37]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16f877a.h [15-ene.-18 15:53  CRC=63418C39]
+
+Source signature=651742A9
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=EB36
+
+Units:
+    Practica9_ComSerie_PIC-ARDUINO (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Practica9_ComSerie_PIC-ARDUINO.xsym
+    Errors:      Practica9_ComSerie_PIC-ARDUINO.err
+    Ext Symbols: Practica9_ComSerie_PIC-ARDUINO.esym
+    INHX8:       Practica9_ComSerie_PIC-ARDUINO.hex
+    Symbols:     Practica9_ComSerie_PIC-ARDUINO.sym
+    List:        Practica9_ComSerie_PIC-ARDUINO.lst
+    Debug/COFF:  Practica9_ComSerie_PIC-ARDUINO.cof
+    Project:     Practica9_ComSerie_PIC-ARDUINO.ccspjt
+    Call Tree:   Practica9_ComSerie_PIC-ARDUINO.tre
+    Statistics:  Practica9_ComSerie_PIC-ARDUINO.STA

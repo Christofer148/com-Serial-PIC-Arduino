@@ -1,0 +1,35 @@
+#include <16f877a.h>
+#fuses XT, NOWDT, NOPROTECT, PUT, NOBROWNOUT, NOLVP
+#use delay (clock = 8000000)
+#USE RS232(BAUD=9600, XMIT=PIN_C6, RCV=PIN_C7)
+
+#use standard_io(b)
+#use standard_io(a)
+#define btn pin_A0
+
+unsigned int contador;
+bool btnActivo = false;
+
+VOID main()
+{
+   contador = 0;
+   int n;
+   
+   while (true) 
+   {
+   
+   
+   
+   getc();
+   
+      if(btn != 1)
+      {
+         delay_ms(500);
+         if (n>10)
+         {
+            n = 0x00;
+         }
+      }
+      putc(n);
+   }
+}

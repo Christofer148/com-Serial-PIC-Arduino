@@ -1,0 +1,32 @@
+#include <16f877a.h>
+#fuses XT, NOWDT, NOPROTECT, PUT, NOBROWNOUT, NOLVP
+#use delay (clock = 8000000)
+#use RS232 (BAUD = 9600, BITS = 8, PARITY = N, XMIT = PIN_C6, RCV = PIN_C7)
+
+#use standard_io(b)
+#use standard_io(a)
+#define btn pin_A0
+
+
+
+VOID main()
+{
+   char n;
+   
+   while (true) 
+   {
+   getc();
+   n=getc();
+   
+      if(btn != 1)
+      {
+         n = n++;
+         delay_ms(500);
+         if (n>10)
+         {
+            n = 0x00;
+         }
+      }
+      putc(n);
+   }
+}

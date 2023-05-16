@@ -1,0 +1,90 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=3
+
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=Practica9_ComSerie_PIC-ARDUINO.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+CCSVersion=5.076
+Compiler=PCM
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+FileList=Practica9_ComSerie_PIC-ARDUINO.c
+
+[Practica9_ComSerie_PIC-ARDUINO.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=Practica9_ComSerie_PIC-ARDUINO.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[Opened Files]
+1=Practica9_ComSerie_PIC-ARDUINO.c
+t1=1
+2=Practica9_ComSerie_PIC-ARDUINO.c
+t2=1
+Count=1
+
+[ProjectLog]
+Days=1
+D1=15-05-2023
+D1_L=11
+D1_L1=[59653]Project Closed.
+D1_L2=[59654]Project Opened.
+D1_L3=[59679]Started Editing.
+D1_L4=[60079]Stopped Editing.
+D1_L5=[60160]Started Editing.
+D1_L6=[61674]Stopped Editing.
+TotalEdit=23
+TotalDebug=0
+D1_E=23
+D1_D=0
+D1_L7=[63406]Project Closed.
+D1_L8=[63502]Project Opened.
+D1_L9=[63532]Started Editing.
+D1_L10=[63557]Stopped Editing.
+D1_L11=[63557]Project Closed.
+[Units]
+Count=1
+1=Practica9_ComSerie_PIC-ARDUINO (main)
